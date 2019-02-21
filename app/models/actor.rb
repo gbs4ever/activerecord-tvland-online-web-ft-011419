@@ -9,7 +9,7 @@ def full_name
   self.first_name + " " + self.last_name
 end
 def list_roles
-self.characters.map do |d|
+self.characters
 binding.pry
 end
 
