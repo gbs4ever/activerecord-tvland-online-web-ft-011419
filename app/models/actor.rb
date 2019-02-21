@@ -10,7 +10,7 @@ def full_name
 end
     def list_roles
        self.characters.map do |d|
-         d.show
+         "#{self.character.name} - #{ d.show.name}"
        end
      end
 
